@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Alpha centauri a como estrella pasajera usando leapfrog
+### Alpha centauri a como estrella pasajera usando leapfrog
 
 # In[1]:
 

@@ -9,11 +9,13 @@ git clone [URL]
 pip install numpy matplotlib
 ```
 
+
 ## Ejemplo de Uso
 
-Este fragmento muestra cómo se crean objetos `CuerpoCeleste` y cómo se configura y ejecuta la simulación del sistema solar utilizando los métodos Leapfrog o Euler-Cromer:
+# Este fragmento muestra cómo se crean objetos `CuerpoCeleste` y cómo se configura y ejecuta la simulación del sistema solar utilizando los métodos Leapfrog o Euler-Cromer:
 
-```python
+```
+python
 import numpy as np
 from FisicaComputacional import CuerpoCeleste, simular_sistema_solar, visualizar_orbitas
 
@@ -37,5 +39,5 @@ simular_sistema_solar(cuerpos_celestes, num_pasos, dt)
 
 # Visualizar las órbitas de los cuerpos celestes
 visualizar_orbitas(cuerpos_celestes)
-
+```
 
